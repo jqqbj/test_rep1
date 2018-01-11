@@ -1,0 +1,19 @@
+  
+spring:
+  profiles:
+    active: test
+
+my: 
+  secret: ${random.value}
+  number: ${random.int}
+  bignumber: ${random.long}
+  
+server:
+  port: 8090
+  
+---
+spring:
+  profiles: prod
+  
+server:
+  port: 8091  
