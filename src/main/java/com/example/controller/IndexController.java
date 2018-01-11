@@ -19,6 +19,7 @@ public class IndexController{
 	
 	@RequestMapping(value="/index")
 	public String index(){
+		System.out.println("xxxxxxxxx");
 		return "hello world ";//+user;
 	}
 	
