@@ -8,6 +8,7 @@ public class User {
 	public User(String name, String sex) {
 		super();
 		this.name = name;
+		System.out.println("xxxxx");
 		this.sex = sex;
 	}
 
