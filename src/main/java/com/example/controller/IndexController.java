@@ -19,7 +19,7 @@ public class IndexController{
 	
 	@RequestMapping(value="/index")
 	public String index(){
-		System.out.println("xxxxxxxxx");
+		System.out.println("xxxxxxxxxt");
 		return "hello world ";//+user;
 	}
 	
@@ -29,5 +29,10 @@ public class IndexController{
 		return new User("张三"+random,"20");
 	}
 
+	@RequestMapping(value="/bbb")
+	public String aa(){
+		System.out.println("xxxxxxxxx");
+		return "hello world ";//+user;
+	}
 
 }
