@@ -33,6 +33,7 @@ public class IndexController{
 	@RequestMapping(value="/bbb")
 	public String aa(){
 		System.out.println("1");
+		System.out.println("2");
 		return "hello world ";//+user;
 	}
 
