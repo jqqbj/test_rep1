@@ -8,8 +8,8 @@ public class User {
 	public User(String name, String sex) {
 		super();
 		this.name = name;
-		System.out.println("xxxxx");
 		this.sex = sex;
+		System.out.println("2.0");
 	}
 
 	public String getName() {
